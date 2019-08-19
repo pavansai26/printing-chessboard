@@ -1,0 +1,6 @@
+import numpy as np
+e=np.ones((8,8))
+e[0::2,0::2]=0
+e[1::2,1::2]=0
+print(e)
+this code prints the ones and zeros alternatively.
